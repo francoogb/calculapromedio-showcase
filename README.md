@@ -146,7 +146,7 @@ Vista tipo **videojuego** del progreso. El estudiante avanza por una ruta visual
 
 ### 🤖 Clases interactivas con Tutor IA + pizarra
 
-Las lecciones incluyen **actividades interactivas** donde el **tutor IA** (impulsado por **DeepSeek**) actúa como profesor virtual: explica un concepto por pantalla, da pistas contextuales, traduce a lenguaje fácil y acompaña paso a paso. El usuario gana **XP** por completar cada actividad.
+Las lecciones incluyen **actividades interactivas** donde el **tutor IA** actúa como profesor virtual: explica un concepto por pantalla, da pistas contextuales, traduce a lenguaje fácil y acompaña paso a paso. El usuario gana **XP** por completar cada actividad.
 
 <p align="center">
   <img src="./screenshots/11-leccion-interactiva.png" alt="Lección interactiva con TutorIA + pizarra - actividad +35 EXP" width="100%"/>
@@ -207,11 +207,11 @@ Separación limpia por dominio: auth (`users` + `user_metadata` + `perfil`), eje
 
 ### Integraciones externas
 
-![DeepSeek](https://img.shields.io/badge/DeepSeek_API-4D6BFE?style=flat-square)
+![AI API](https://img.shields.io/badge/AI_API-191919?style=flat-square)
 ![Flow.cl](https://img.shields.io/badge/Flow.cl-00B4D8?style=flat-square)
 ![Google OAuth](https://img.shields.io/badge/Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white)
 
-- **DeepSeek API** (`deepseek-chat`) — tutor IA
+- **Modelo de IA externo** vía API REST — tutor IA conversacional
 - **Flow.cl** — pagos chilenos vía API REST con firma **HMAC-SHA256**
 - **Google OAuth 2.0** via Laravel Socialite (stateless)
 - **stevebauman/location** — geolocalización de IPs
@@ -234,7 +234,7 @@ flowchart TD
     Premium --> Controllers[📦 ~20 Controllers]
 
     Controllers --> MySQL[(🗄️ MySQL<br/>50 migraciones)]
-    Controllers --> DeepSeek[🤖 DeepSeek API<br/>tutor IA]
+    Controllers --> AI[🤖 Modelo de IA<br/>tutor conversacional]
     Controllers --> Flow[💳 Flow.cl<br/>pagos HMAC-SHA256]
     Controllers --> Google[🔐 Google OAuth<br/>Socialite]
     Controllers --> Mail[📧 SMTP<br/>4 Mailables]
@@ -381,6 +381,9 @@ También tengo otro SaaS en producción: **[Compress IQ](https://github.com/fran
 
 ---
 
+<p align="center">
+  <sub>Este repositorio es documentación del proyecto. El código fuente es privado.<br/>Para ver el producto funcionando, visita <a href="https://calculapromedio.cl">calculapromedio.cl</a>.</sub>
+</p>
 <p align="center">
   <sub>Este repositorio es documentación del proyecto. El código fuente es privado.<br/>Para ver el producto funcionando, visita <a href="https://calculapromedio.cl">calculapromedio.cl</a>.</sub>
 </p>
