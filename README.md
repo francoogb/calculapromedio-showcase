@@ -384,6 +384,3 @@ También tengo otro SaaS en producción: **[Compress IQ](https://github.com/fran
 <p align="center">
   <sub>Este repositorio es documentación del proyecto. El código fuente es privado.<br/>Para ver el producto funcionando, visita <a href="https://calculapromedio.cl">calculapromedio.cl</a>.</sub>
 </p>
-<p align="center">
-  <sub>Este repositorio es documentación del proyecto. El código fuente es privado.<br/>Para ver el producto funcionando, visita <a href="https://calculapromedio.cl">calculapromedio.cl</a>.</sub>
-</p>
